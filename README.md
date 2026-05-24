@@ -12,13 +12,13 @@ To demonstrate how various prompting techniques (query decomposition, decision-m
 
 ### **Procedure:**
 
-#### **1. Introduction to Prompt Patterns (Extended Explanation):**
+### **1. Introduction to Prompt Patterns (Extended Explanation):**
 
 ![image](https://github.com/user-attachments/assets/0d34b2f6-809f-4427-9835-526c201c5539)
 
 To effectively generate content, various prompt patterns are used to guide the AI through the content creation process. Each pattern serves a specific purpose, whether it's to break down complex queries, make decisions, refine the structure, or ensure accuracy. Let’s dive deeper into each of these:
 
-1. **Query Decomposition:**
+## 1. Query Decomposition:
    - **Extended Explanation:** Query decomposition involves breaking down a complex query into manageable sub-queries, each addressing a smaller part of the original question. This is useful when the topic requires a multi-faceted approach.
    - **Example:** 
      - A business report on emerging market trends could be broken into multiple sub-queries:
@@ -29,7 +29,8 @@ To effectively generate content, various prompt patterns are used to guide the A
    - **Why is it useful?**
      - Query decomposition helps in focusing the AI on one aspect of the question at a time, ensuring thorough and comprehensive answers. It reduces ambiguity and allows the AI to structure its response more logically.
 
-2. **Decision Making:**
+## 2. Decision Making:
+
 <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/688b6ffa-17ea-4745-8ac1-01884eb36149" />
 
 
@@ -40,14 +41,14 @@ To effectively generate content, various prompt patterns are used to guide the A
    - **Why is it useful?**
      - Decision-making ensures that the content is aligned with your objectives. It avoids getting lost in broad directions and helps keep the content focused on one coherent theme.
 
-4. **Answer Engineering:**
+## 3. Answer Engineering:
    - **Extended Explanation:** Answer engineering refers to giving the AI specific guidelines on how to format and present the content, ensuring that it aligns with expectations regarding structure, tone, and depth.
    - **Example:** 
      - For an article: "Write an article on climate change, structured as: Introduction, Causes, Effects, Solutions, Conclusion. Use a formal tone and include at least three references to recent scientific studies.”
    - **Why is it useful?**
      - By clearly defining the structure and requirements, answer engineering can prevent rambling or off-topic responses, ensuring that the final output meets your exact specifications.
 
-5. **Fact Check List:**
+## 4. Fact Check List:
    - **Extended Explanation:** In many cases, particularly with reports and case studies, factual accuracy is paramount. A fact check list ensures that the AI’s output is grounded in verified data, offering more credibility to the content.
    - **Example:**
      - When generating a market analysis report, the fact check list could include:
@@ -58,21 +59,21 @@ To effectively generate content, various prompt patterns are used to guide the A
    - **Why is it useful?**
      - It enhances the credibility and reliability of the generated content, especially when factual accuracy is critical to the report’s success.
 
-6. **Tail Generation:**
+## 5. Tail Generation:
    - **Extended Explanation:** Tail generation extends content logically, adding more detail, context, or background to deepen the narrative or analysis.
    - **Example:** 
      - For a case study: “Explain the role of customer feedback in improving the startup’s product line. Include examples of specific feedback and how the company used it to enhance their offerings.”
    - **Why is it useful?**
      - Tail generation prevents superficial content. By expanding on key areas, you can ensure that the generated content offers a deeper, more thorough exploration of the topic.
 
-7. **Menu Actions:**
+## 6. Menu Actions:
    - **Extended Explanation:** Menu actions provide multiple directions or options, enabling the AI to choose the most relevant path to follow.
    - **Example:**
      - For a product launch announcement: “Would you prefer the announcement to focus on product features or the company’s commitment to sustainability?”
    - **Why is it useful?**
      - It allows for more flexibility, especially in content creation where multiple angles may be relevant. Menu actions guide the AI to select the most pertinent angle based on your preferences.
 
-8. **Semantic Filter:**
+## 7. Semantic Filter:
    - **Extended Explanation:** A semantic filter controls the tone, style, and accuracy of the content. It can help to fine-tune the narrative and ensure that the language aligns with your intended audience.
    - **Example:** 
      - For a business report: “Write this report in a professional tone, using formal language suitable for executives in the tech industry.”
@@ -81,32 +82,32 @@ To effectively generate content, various prompt patterns are used to guide the A
 
 ---
 
-#### **2. Choosing the Content Type (Detailed Exploration):**
+## 2. Choosing the Content Type (Detailed Exploration):
 
 The first and most crucial step is selecting the type of content to generate. Different content types require different techniques, structure, and approaches. Below are some expanded insights into the types of content:
 
-1. **Reports:**
+## 1.Reports:
    - These are typically formal documents with a structured format that presents factual information and analysis.
    - **Example:** Business reports on market trends, analysis of customer satisfaction surveys, or government reports on public health.
    - **Prompt Refinement:** 
      - Initial prompt: "Write a report on the impact of AI in business."
      - Refined prompt: "Write a detailed report on how AI is transforming the customer service industry. Include case studies of companies using AI for customer support and analyze the financial impact."
 
-2. **Case Studies:**
+## 2.Case Studies:
    - Case studies provide detailed insights into specific situations or examples, typically focusing on successes, challenges, and lessons learned.
    - **Example:** An analysis of how a startup successfully entered the market with an innovative product.
    - **Prompt Refinement:**
      - Initial prompt: "Write a case study on a startup's success."
      - Refined prompt: "Write a detailed case study of a startup in the tech industry. Focus on its market entry strategy, product innovation, and the challenges it overcame to succeed."
 
-3. **Articles:**
+## 3.Articles:
    - Articles can be informative or opinion-based and typically follow a more relaxed structure compared to reports and case studies.
    - **Example:** Articles on social issues, educational topics, or expert opinions on industry trends.
    - **Prompt Refinement:**
      - Initial prompt: "Write an article about climate change."
      - Refined prompt: "Write a thought-provoking article about the causes and effects of climate change, focusing on human activities, the impact on biodiversity, and potential solutions."
 
-4. **Creative Content:**
+## 4.Creative Content:
    - Creative content includes fiction, comic books, scripts, and other forms of narrative writing.
    - **Example:** Sci-fi short stories, video game scripts, or comic book narratives.
    - **Prompt Refinement:**
@@ -115,7 +116,7 @@ The first and most crucial step is selecting the type of content to generate. Di
 
 ---
 
-#### **3. Creating the Prompts (Extended Details):**
+## **3. Creating the Prompts (Extended Details):**
 
 Creating effective prompts is a nuanced process. Here’s a more detailed look at how to create prompts for different content types:
 
@@ -136,7 +137,7 @@ Creating effective prompts is a nuanced process. Here’s a more detailed look a
 
 ---
 
-#### **4. Generating and Refining Outputs (Further Exploration):**
+## **4. Generating and Refining Outputs (Further Exploration):**
 
 Content generation is an iterative process. After generating the first draft, refine and adjust based on feedback.
 
@@ -149,7 +150,7 @@ Content generation is an iterative process. After generating the first draft, re
 
 ---
 
-#### **5. Review and Evaluation (In-Depth):**
+## **5. Review and Evaluation (In-Depth):**
 
 Evaluation ensures that the generated content meets your standards.
 
